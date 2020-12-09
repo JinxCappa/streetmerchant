@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   streetmerchant:
-    image: streetmerchant
+    image: jinxcappa/streetmerchant
     deploy:
       replicas: 1
       restart_policy:
